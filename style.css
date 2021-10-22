@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1300px;
+    height: 630px;
+    margin: 10px auto;
+}
+
+.sarlovha{
+    width: 1298px;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+    background-image: url(image.2png.jpg);
+    background-size: 1298px 200px;
+
+}
+h1{
+    color: silver;
+    position: absolute;
+    left: 400px;
+    top: 60px;
+    background-color: #23262b;
+    padding: 10px 50px 10px 50px;
+    border-radius: 20px;
+}
+
+.menu{
+    width: 700px;
+    height: 60px;
+    background-color: #23262b;
+    position: absolute;
+    top: 150px;
+    left: 630px;
+    border-radius: 30px 0 0 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+.box{
+    width: 110px;
+    height: 30px;
+    background-color: silver;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 15px;
+    line-height: 2;
+}
+.a{
+    width: 150px;
+}
+.a1{
+    margin-left: 50px;
+}
+
+
+
+.content{
+    width: 1298px;
+    height: 426px;
+  
+    border-radius: 10px;
+}
+.slider{
+    width: 1296px;
+    height: 200px;
+    border: 2px solid ;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #23262b;
+    border-radius: 20px;
+    /* perspective: 600px; */
+
+}
+.slide{
+    width: 200px;
+    height: 130px;
+    border: 2px solid white;
+    margin-left: 10px;
+    /* transform-style: preserve-3d; */
+    transition: 1s;
+    transition-timing-function: linear;
+    background-size: 200px 130px;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+   
+    
+}
+.bir{
+    margin-left: 100px;
+}
+
+
+
+
+
+/* > va < belgilari 
+katta belgisi */
+.katta{
+    width: 20px;
+    height: 0.1px;
+    border: 2px solid white;
+ 
+}
+.a11{
+  transform: rotateZ(30deg);
+  position: relative;
+  left: 50px;
+  z-index: 1;
+}
+.a12{
+    transform: rotateZ(-30deg);
+    position: relative;
+    top: 11px;
+    left: 26px;
+    z-index: 1;
+}
+.a13{
+    width: 50px;
+    height: 50px;
+    background-color: silver;
+    border-radius: 25px;
+    z-index: 0;
+    position: absolute;
+    left: 1251px;
+    bottom: 305px;
+}
+
+
+
+
+
+
+
+
+
+/* kichik belgisi*/
+.k1{
+    position: relative;
+    right: 1190px;
+    top: 10px;
+    transform: rotateZ(30deg);
+    z-index: 1;
+}
+
+.k2{
+    position: relative;
+    right: 1214px;
+    top: -1px;
+    transform: rotateZ(-30deg);
+    z-index: 1;
+}
+.k3{
+    width: 50px;
+    height: 50px;
+    background-color: silver;
+    border-radius: 25px;
+    z-index: 0;
+    position: relative;
+    bottom: 123px;
+    left: 30px;
+}
+
+/* > va < belgilari */
+
+
+
+.besh{
+    background-image: url(image.png);
+} 
+.tort{
+    background-image: url(rasm1.png);
+
+}
+.uch{
+    background-image: url(rasm2.png);
+} 
+.ikki{
+    background-image: url(rasm3.png);
+} 
+.bir{
+    background-image: url(rasm4.png);
+} 
+
+
+
+
+.javon{
+    width: 1292px;
+    height: 200px;
+    border: 5px solid sienna;
+    border-radius: 20px;
+    position: relative;
+    bottom: 47px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.kitob{
+    width: 150px;
+    height: 160px;
+    border:2px solid black;
+    
+}
+
+
+
+
+
+
+
+
+
+
